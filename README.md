@@ -1,2 +1,2 @@
 # Studio-Design
-Analyzing sales of an Art Design Studio on a  4 year span, from 2018 to 2021.
+Analyzing sales of an Art Design Studio over a 4-year period, from 2018 to 2021.
