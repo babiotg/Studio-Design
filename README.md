@@ -1,5 +1,6 @@
 # **Studio Design - Data Analysis**
-Tableau project for a digital graphics study, the request was to analyze sales over a period of 5 years, from 2018 to 2022.
+Tableau Project for a Digital Graphics Study. 
+Request was to analyze sales over a period of 5 years, from 2018 to 2022.
 
 To **view** the **Tableau visualization** please visit my Tableau profile:
 **[Studio Design with Customer Analysis](https://public.tableau.com/app/profile/barbara.callegari/viz/StudioDesignwithCustomerAnalysis/)**
@@ -18,14 +19,14 @@ for each year, comparing the values with those of the previous year.
 * The client specifically requested a dedicated dashboard that contained a single chart providing an overview of the sales of each product for each year.
 * A very important element for the client was to improve customer retention, implementing a system to reactivate customers. 
 
-For this reason, I created a dedicated dashboard to see the situation of customer activity in general:
+For this reason, I created a dedicated dashboard to see the situation of customers activity in general:
 
 * Average Customer Lifetime
 * Average Customer Lifetime Value
 * New Customer Acquisition
 * Customer Activity by Quarter (first, recurrent, last purchase)
 
-Then another dashboard to go into more detail on what each customer spent during each year, with the relevant details.
+Then another dashboard to go into more detail on what each customer spent during each year, with relevant meterics.
 
 # **Data Source**
 The data comes from fattureincloud.it. I was provided with 5 Excel files, one for each year. The project started in July, so at that time the file contained only sales up to June. Over time, the client sent me the data to integrate new information into the dashboards.
@@ -33,7 +34,8 @@ The data comes from fattureincloud.it. I was provided with 5 Excel files, one fo
 <img src="img/img_fattureincloud.png" alt="Data Source from Fattureincloud.it"> 
 
 # **Data Cleaning & EDA**
-* The data cleaning was performed with Python, in the folder *data quality* there is an extract of Data_Quality.ipynb file, obviously there is not the complete file for a matter of data privacy. With data cleaning I standardized and made the names of the cities consistent for the subsequent geolocation.
+
+* The data cleaning was performed with Python: in the folder *data quality* there is an extract of the Data_Quality.ipynb file. Obviously not the complete file is shown because of data privacy protection. With data cleaning I standardized and made the names of the cities consistent for the subsequent geolocation.
 
 <img src="img/data_quality.jpg" alt="Extract from Data Quality Jupyter Notebook">
 
@@ -134,7 +136,7 @@ The other **view** contains the **Retention Rate** broken down by Elapsed Quarte
 As of the analysis processing start date on 10/06/2022, there were 316 customers who had not made a purchase in over a year.
 
 Thanks to the analysis conducted, the sales account manager was able to take action to re-engage customers and increase sales in the second half of the year.   
-As a result of the **Customer Regain Efforts**, **22 customers** who had not made a purchase in over a year were successfully regained, representing **6.6%** of the potential customer base. These customers contributed **20.711€** to revenue, which would not have been realized without the intervention of the Customer Regain Efforts.
+As a result of the **Customer Regain Efforts**, **21 customers** who had not made a purchase in over a year were successfully regained, representing **6.6%** of the potential customer base. These customers contributed **20.711€** to revenue, which would not have been realized without the intervention of the Customer Regain Efforts.
 
 Also there has been an **increase** in:
 * **Average Customer Lifetime** from 7.3 to 8.2 months (**+12.3%**)
